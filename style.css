@@ -4,8 +4,8 @@ html {
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -36,7 +36,7 @@ img {
 
 .main-display {
   background-image: url('./img/your_verse_hero.jpg');
-  background-position: 0px -780px;
+  background-position: 0 -780px;
   height: 535px;
 }
 
@@ -44,7 +44,7 @@ img {
   display: flex;
   justify-content: space-around;
   border-radius: 8px;
-  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))), -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
 }
 
 .nav-item {
@@ -68,7 +68,7 @@ img {
 }
 
 .search:hover {
-  background: rgba(0, 0, 0, 0.0);
+  background: rgba(0.0, 0.0, 0.0, 0.0);
 }
 
 .navbar-container {
@@ -85,8 +85,6 @@ img {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
 }
-
-.promo-item {}
 
 .search-bar {
   background: transparent;
