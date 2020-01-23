@@ -31,16 +31,57 @@ img {
 
 .navbar{
   display:flex;
-  background-color: red;
+  /* background-color: red; */
+  justify-content: space-around;
+  border-radius: 8px;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))),
+              -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))),
+              -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+}
+
+.nav-item{
+  padding: 12px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 15px;
+  font-family: arial, sans-serif;
+  color: white;
+  border-left: 0.5px solid black;
+}
+
+.nav-item:hover{
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.logo{
+  border-left: none;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.search:hover{
+  background: rgba(0,0,0,0.0);
 }
 
 .navbar-container{
-  background-color:orange;
-  margin-left: 35%;
+  /* background-color:orange; */
+  margin-left: 13%;
   margin-top: 70px;
+  /* width: 70%; */
   float:left;
 }
 
+.apple-logo{
+  height: 20px;
+}
+
+.promo-menu{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.promo-item{
+}
 /* .navbar::after{
   content: ".";
 display: block;
