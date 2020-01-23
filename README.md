@@ -12,7 +12,7 @@ This project consists of building a webpage using images as a background and add
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/voscarmv/building_with_backgrounds_and_gradients/9992e9b49816ff4f0ebf23c2f59812fc0e406d64/index.html)
+[Live Demo Link](https://rawcdn.githack.com/voscarmv/building_with_backgrounds_and_gradients/f8e6a73aa5749dc993e43f146710c95dee2c1ebf/index.html)
 
 ## Author
 
