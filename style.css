@@ -103,6 +103,31 @@ img {
 .main-heading{
   padding-top: 200px;
 }
+
+.footer-container{
+  display:grid;
+  grid-template: 50% 50% / 50% 50%;
+}
+
+.footer-contact{
+  padding: 20px;
+}
+
+.footer-links{
+  display: flex;
+}
+
+.footer-links-item{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 5px;
+}
+
+.footer-copyright{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
 /* .navbar::after{
   content: ".";
 display: block;
