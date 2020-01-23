@@ -21,3 +21,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.main-display{
+  background-image: url('./img/your_verse_hero.jpg');
+  background-position: 0px -780px;
+  height: 535px;
+}
