@@ -101,7 +101,23 @@ img {
 }
 
 .main-heading{
-  padding-top: 200px;
+  color:white;
+  font-family: verdana, sans-serif;
+  font-size: 50px;
+  padding-top: 180px;
+}
+
+.main-subheading{
+  margin-top: 30px;
+  color: white;
+  font-family: helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.main-content{
+  font-family: helvetica, sans-serif;
+  margin-top: 50px;
+  font-size: 30px;
 }
 
 .footer-container{
@@ -111,6 +127,9 @@ img {
 
 .footer-contact{
   padding: 20px;
+  padding-left: 20%;
+  font-family: helvetica, sans-serif;
+  font-size: 12px;
 }
 
 .footer-links{
@@ -121,13 +140,40 @@ img {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 5px;
+  font-family: helvetica, sans-serif;
+  font-size: 12px;
 }
 
 .footer-copyright{
   padding-top: 10px;
   padding-bottom: 20px;
-  padding-left: 20px;
+  padding-left: 20%;
+  font-family: helvetica, sans-serif;
+  font-size: 12px;
 }
+
+a:link{
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
+a:visited{
+  color:blue;
+}
+
+a:active{
+  color:blue;
+}
+
+.main-content a{
+  color:white;
+}
+
 /* .navbar::after{
   content: ".";
 display: block;
