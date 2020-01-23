@@ -26,4 +26,25 @@ img {
   background-image: url('./img/your_verse_hero.jpg');
   background-position: 0px -780px;
   height: 535px;
+  /* margin-top: -50px; */
 }
+
+.navbar{
+  display:flex;
+  background-color: red;
+}
+
+.navbar-container{
+  background-color:orange;
+  margin-left: 35%;
+  margin-top: 70px;
+  float:left;
+}
+
+/* .navbar::after{
+  content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+} */
