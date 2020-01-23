@@ -1,0 +1,177 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-display {
+  background-image: url('./img/your_verse_hero.jpg');
+  background-position: 0 -780px;
+  height: 535px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 8px;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))), -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+}
+
+.nav-item {
+  padding: 12px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 15px;
+  font-family: arial, sans-serif;
+  color: white;
+  border-left: 0.5px solid black;
+}
+
+.nav-item:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  border-left: none;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.search:hover {
+  background: rgba(0, 0, 0, 0);
+}
+
+.navbar-container {
+  margin-left: 13%;
+  margin-top: 70px;
+  float: left;
+}
+
+.apple-logo {
+  height: 20px;
+}
+
+.promo-menu {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.search-bar {
+  background: transparent;
+  border-radius: 10px;
+  border-color: darkgray;
+}
+
+.search-icon {
+  height: 10px;
+  position: relative;
+  left: 20px;
+}
+
+.main-heading-container {
+  text-align: center;
+}
+
+.main-heading {
+  color: white;
+  font-family: verdana, sans-serif;
+  font-size: 50px;
+  padding-top: 180px;
+}
+
+.main-subheading {
+  margin-top: 30px;
+  color: white;
+  font-family: helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.main-content {
+  font-family: helvetica, sans-serif;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template: 50% 50% / 50% 50%;
+}
+
+.footer-contact {
+  padding: 20px;
+  padding-left: 20%;
+  font-family: helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.footer-links {
+  display: flex;
+}
+
+.footer-links-item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 5px;
+  font-family: helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.footer-copyright {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 20%;
+  font-family: helvetica, sans-serif;
+  font-size: 12px;
+}
+
+a:link {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:active {
+  color: blue;
+}
+
+.main-content a {
+  color: white;
+}
