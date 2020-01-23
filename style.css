@@ -82,6 +82,27 @@ img {
 
 .promo-item{
 }
+
+.search-bar{
+  background: transparent;
+  border-radius: 10px;
+  border-color: darkgray;
+}
+
+.search-icon{
+  height: 10px;
+  position:relative;
+  left: 20px;
+}
+
+.main-heading-container{
+  /* background-color:red; */
+  text-align: center;
+}
+
+.main-heading{
+  padding-top: 200px;
+}
 /* .navbar::after{
   content: ".";
 display: block;
